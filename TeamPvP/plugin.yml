@@ -1,0 +1,9 @@
+name: TeamPvP
+version: 1.3
+description: Adds a team side to PvP
+author: benjibobs
+main: com.github.benjibobs.teampvp.Main
+commands:
+  teampvp:
+    description: Info page
+    default: true
