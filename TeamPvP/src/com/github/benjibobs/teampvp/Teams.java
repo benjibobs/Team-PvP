@@ -66,6 +66,11 @@ public class Teams implements Listener{
 	    	  event.setCancelled(true);
 	    	  atker.sendMessage(ChatColor.DARK_RED + "You cannot attack members of your own kingdom!");
 	    	  
+	      }else if(atker.hasPermission("team.tortuga") && defend.hasPermission("team.tortuga")){
+	    	
+	    	  event.setCancelled(true);
+	    	  atker.sendMessage(ChatColor.DARK_RED + "You cannot attack members of your own kingdom!");
+	    	  
 	      }
 	    }
             
